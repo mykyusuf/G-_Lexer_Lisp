@@ -1,0 +1,4 @@
+(deffun sumup (x)
+(if (equal x 5) 1
+(+ x (sumup (- x 1))) )
+)
